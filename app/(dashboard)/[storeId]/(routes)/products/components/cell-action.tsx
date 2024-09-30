@@ -9,6 +9,7 @@ import { useParams, useRouter } from "next/navigation";
 import axios from "axios";
 import { useState } from "react";
 import { AlertModal } from "@/components/modals/alert-modal";
+import React from "react";
 
 interface CellActionProps {
     data: ProductColumn
